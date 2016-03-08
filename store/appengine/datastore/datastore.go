@@ -1,11 +1,11 @@
 package datastore
 
 import (
-	"time"
 	"github.com/coldume/session"
 	"github.com/coldume/session/store"
-	"google.golang.org/appengine/datastore"
 	"golang.org/x/net/context"
+	"google.golang.org/appengine/datastore"
+	"time"
 )
 
 var _ store.Store = &Datastore{}

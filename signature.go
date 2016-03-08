@@ -1,13 +1,13 @@
 package session
 
 import (
+	"bytes"
 	"crypto/hmac"
 	"crypto/sha256"
 	"crypto/subtle"
 	"encoding/base64"
-	"regexp"
-	"bytes"
 	"errors"
+	"regexp"
 	"strings"
 )
 

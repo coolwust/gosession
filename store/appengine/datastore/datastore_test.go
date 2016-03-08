@@ -1,14 +1,14 @@
 package datastore
 
 import (
-	"testing"
-	"reflect"
-	"time"
-	"google.golang.org/appengine/datastore"
-	"google.golang.org/appengine/aetest"
-	"github.com/coldume/session/store"
 	"github.com/coldume/session"
+	"github.com/coldume/session/store"
 	"golang.org/x/net/context"
+	"google.golang.org/appengine/aetest"
+	"google.golang.org/appengine/datastore"
+	"reflect"
+	"testing"
+	"time"
 )
 
 var dataTest = Data{

@@ -27,10 +27,10 @@ var unsignTests = []struct {
 	unsigned string
 	err      error
 }{
-	{"hello.NAJWxCdrLTSD8CvzyLdIDhLH6pcCsiAKldMySgs4",    []byte("foo"), "hello", nil},
+	{"hello.NAJWxCdrLTSD8CvzyLdIDhLH6pcCsiAKldMySgs4", []byte("foo"), "hello", nil},
 	{"world.6kpaLfNqzist38XcIeU9ejULKGCJK7u23K9Qwbyb4sk", []byte("bar"), "world", nil},
-	{"hello.6kpaLfNqzist38XcIeU9ejULKGCJK7u23K9Qwbyb4sk", []byte("foo"), "",      ErrInvalidSignature},
-	{"world.6kpaLfNqzist38XcIeU9ejULKGCJK7u23K9Qwbyb4sk", []byte("foo"), "",      ErrInvalidSignature},
+	{"hello.6kpaLfNqzist38XcIeU9ejULKGCJK7u23K9Qwbyb4sk", []byte("foo"), "", ErrInvalidSignature},
+	{"world.6kpaLfNqzist38XcIeU9ejULKGCJK7u23K9Qwbyb4sk", []byte("foo"), "", ErrInvalidSignature},
 }
 
 func TestUnsign(t *testing.T) {

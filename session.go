@@ -1,10 +1,10 @@
 package session
 
 import (
-	"time"
-	"sync"
 	"crypto/rand"
 	"fmt"
+	"sync"
+	"time"
 )
 
 type Session struct {

@@ -1,8 +1,8 @@
 package session
 
 import (
-	"testing"
 	"regexp"
+	"testing"
 )
 
 func TestUUID(t *testing.T) {
